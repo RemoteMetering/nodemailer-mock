@@ -10,7 +10,7 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha --exit",
     "coverage-report": "./test/bin/nyc-coverage-report",
-    "coverage": "npm run coverage-report && open ./coverage/lcov-report/index.html",
+    "coverage": "npm run coverage-report",
     "coverage-badge": "./node_modules/.bin/istanbul-cobertura-badger -e 95 -g 85 -b \"${PWD##*/}\"",
     "lint": "./node_modules/.bin/eslint .",
     "validate": "./test/bin/module-validator",
