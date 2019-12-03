@@ -2,7 +2,7 @@
   "name": "nodemailer-mock",
   "version": "1.4.4",
   "description": "Mock nodemailer module for testing",
-  "main": "nodemailer-mock.js",
+  "main": "rms-nodemailer-mock.js",
   "directories": {
     "lib": "./lib",
     "test": "./test"
